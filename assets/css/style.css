@@ -103,6 +103,52 @@ a {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+#navbar span a:link {
+  float: right;
+  display: block;
+  color: #A9A9A9;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+#navbar span a:visited {
+  float: right;
+  display: block;
+  color: #A9A9A9;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#navbar span a:hover {
+  float: right;
+  display: block;
+  color: #A9A9A9;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+#navbar span a:active {
+  float: right;
+  display: block;
+  color: #A9A9A9;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+
+
+
 /* Page content */
 .content {
   padding: 16px;
