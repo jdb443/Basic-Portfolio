@@ -16,7 +16,7 @@ body {
   line-height: 150%;
   color: #000000;
   /* background: #efeee7; /* main background ATM */
-  background-image: url("assets/images/crossline-lines.png"); /* seems to be broken */
+  background-image: url("../../assets/images/white-waves.png"); /* seems to be broken */
   background-repeat: repeat;
   background-color: #A9A9A9;
 }
