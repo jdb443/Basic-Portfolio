@@ -4,8 +4,8 @@
 header {
     background-color: #ffffff;
     color: white;
-    border-bottom-color: #000000;
-    border-bottom: 200px;
+    border-bottom: 2px solid #cccccc;
+
 }
 
 body {
@@ -15,7 +15,8 @@ body {
   font-size: 18px;
   line-height: 150%;
   color: #000000;
-  background: #efeee7;
+  background: #efeee7; /* main background ATM */
+  
 }
 
 
@@ -25,6 +26,7 @@ h1 {
   color: #eee;
   text-align: center;
   background: #4aaaa5;
+
 }
 
 h2 {
@@ -72,8 +74,8 @@ a {
   margin-bottom: 0px;
   margin-right: 300px;
   margin-left: 300px;
-  border-color: black;
-  border: 40px;
+
+
 }
 
 /* Navbar links */
@@ -89,7 +91,6 @@ a {
   font-family: 'Georgia', Times, Times New Roman, serif;
   margin-top: 200;
   margin-bottom: 0px;
-
 }
 
 #navbar span a {
@@ -100,9 +101,6 @@ a {
   padding: 14px;
   text-decoration: none;
   font-family: 'Georgia', Times, Times New Roman, serif;
-
-
-  
 }
 
 /* Page content */
