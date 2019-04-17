@@ -29,14 +29,17 @@ a h1 {
   padding: 30px;
   margin-bottom:0px;
   text-decoration: none;
-
-
 }
 
 h2 {
-  color: #eee;
-  text-align: center;
-  background: #4aaaa5;
+  color:  #4aaaa5;
+  text-align: left;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #cccccc;
+  
+  
 
 }
  header a {
@@ -70,7 +73,7 @@ span a:hover {
   margin-bottom: 40px;
   margin-top: 40px;
   background-color: #ffffff;
-  border: 2px solid #dddddd;
+  border: 1px solid #dddddd;
   padding: 30px; 
   height: 960px;
 }
@@ -93,6 +96,7 @@ span a:hover {
   width: 200px;
   height: 200px;
   margin-right: 20px;
+  background-image: url("../../assets/images/Jonathan_Behar_Profile_Photo.jpeg");
 }
 
 /* Style the navbar */
