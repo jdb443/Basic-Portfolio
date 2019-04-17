@@ -43,7 +43,7 @@ h2 {
   text-decoration: none;
 }
 
-span a ,span a:active, span a:visited {
+span a , span a:active, span a:visited {
   color: #cccccc;
   text-decoration: none;
   padding: 10px;
@@ -51,7 +51,6 @@ span a ,span a:active, span a:visited {
   text-size-adjust: 14px;
   margin-top: 30px;
   font-family: 
-
 }
 
 
