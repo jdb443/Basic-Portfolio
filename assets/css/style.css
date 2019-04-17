@@ -65,7 +65,10 @@ span a:hover {
 
 .container {
   width: 1024px;
-  margin: 0 auto;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 #main-bio,
@@ -198,8 +201,13 @@ span a:hover {
 
 
 /* Page content */
-.content {
-  padding: 16px;
+#content {
+  padding: 30px;
+  border: solid 2px #dddddd;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top:40px;
+  margin-bottom: 40px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
