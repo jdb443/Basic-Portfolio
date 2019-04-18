@@ -29,6 +29,7 @@ a h1 {
   padding: 30px;
   margin-bottom:0px;
   text-decoration: none;
+  margin-top: 0px;
 }
 
 h2 {
@@ -50,7 +51,7 @@ span a , span a:active, span a:visited {
   color: #cccccc;
   text-decoration: none;
   padding: 10px;
-  margin-bottom:0px;
+  margin-bottom:30px;
   font-display: 12px;
   margin-top: 30px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
@@ -75,17 +76,17 @@ span a:hover {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   padding: 30px; 
-  height: 960px;
+  height: 480px;
 }
 
 #main-bio,
 #contact-info,
 #bio-image {
   float: left;
-}
+} 
 
 #main-bio {
-  width: 70%;
+  width: 100%;
 }
 
 #contact-info {
@@ -96,14 +97,13 @@ span a:hover {
   width: 200px;
   height: 200px;
   margin-right: 20px;
-  background-image: url("../../assets/images/Jonathan_Behar_Profile_Photo.jpeg");
+  background-image: url("../images/Jonathan_Behar_Profile_Photo.jpeg");
 }
 
 /* Style the navbar */
 #navbar {
   overflow: hidden;
   background-color: #ffffff;
-  padding: 30px 0;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -112,8 +112,6 @@ span a:hover {
   margin-right: 15%;
   margin-left: 15%;
   text-decoration: none;
-
-
 }
 
 /* Navbar links */
@@ -121,13 +119,14 @@ span a:hover {
 #nav_title2 {
   float: right;
   text-decoration: none;
-  padding: 30px 0;
+  padding: 25px 0;
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
   margin: 0px;
   margin-bottom: 0px;
   font-size: 18px;
+  
 }
 
 #nav_title1 {
@@ -235,14 +234,16 @@ footer {
   background-color: #666666;
   text-align: center;
   border-top: solid 4px #4aaaa5;
-  line-height: 50px;
+  padding-top:40px;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
   clear: both;
-  color: white;
-}
-
-#footer {
-  height: 50px;
+  color: #ffffff;
+  font-size: 12px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0;
   width: 100%;
-  position: relative; 
+  position: fixed;
   bottom: 0;
 }
+
