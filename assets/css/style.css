@@ -2,11 +2,12 @@
 
 /*Header*/
 header {
-    background-color: #ffffff;
-    overflow: hidden;
-    color: white;
-    border-bottom: 2px solid #cccccc;
-    text-decoration: none;
+  background-color: #ffffff;
+  overflow: hidden;
+  color: white;
+  border-bottom: 2px solid #cccccc;
+  text-decoration: none;
+  width:100%;
 
 }
 
@@ -30,6 +31,7 @@ a h1 {
   margin-bottom:0px;
   text-decoration: none;
   margin-top: 0px;
+  font-size: 30px;
 }
 
 h2 {
@@ -58,15 +60,15 @@ span a , span a:active, span a:visited {
 }
 
 
-
-
-
 span a:hover {
   color: #ffffff;
   background: #4aaaa5;
 }
 
-
+.navBorder {
+  border-left: 1px solid #cccccc;
+  padding-left: 5px;
+}
 
 .container {
   margin-left: 15%;
@@ -216,6 +218,11 @@ span a:hover {
   margin-bottom: 40px;
   background-color: #ffffff
 }
+
+sup { 
+  vertical-align: top;
+  position: relative;
+  top: -0.5em; }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
