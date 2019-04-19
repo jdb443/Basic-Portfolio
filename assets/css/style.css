@@ -154,6 +154,33 @@ p {
   color: #777777;
 }
 
+.portPhotos {
+  float: left;
+  margin: 37px 74px 37px 0px;
+  position: relative;
+}
+
+
+.textAbsolute, .textAbsolute:visited, .textAbsolute:active {
+  position: absolute;
+  color: #ffffff;
+  padding: 20px 0;
+  z-index: 0;
+  background: #4aaaa5;
+  right: 0px;
+  bottom: 40px;
+  width: 300px;
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.textAbsolute:hover {
+  background-color: #cccccc;
+  color: #4aaaa5;
+  font-weight: bold;
+}
+
 
 /* #navbar a h1 {
   float: left;
