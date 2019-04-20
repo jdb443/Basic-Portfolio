@@ -83,12 +83,12 @@ span a:hover {
   overflow: hidden auto;
   margin: 0 auto;
   margin: 40px 15% 120px 15%;
-
+  position: absolute;
 }
 
 .mainContainer {
   min-height: 40vh;
-  overflow: hidden;
+  overflow: hidden auto;
   display: block;
   position: relative;
 }
@@ -189,13 +189,13 @@ form {
   position: relative;
   margin-bottom: 60px;
   margin-left: 0px;
-  margin-right: 30px;
+  margin-right: 30vw;
 }
 
 /* Contact Page text Input boxes */
 input {
   margin-bottom: 20px;
-  width: 65vw;
+  width: 60vw;
   position: relative;
   margin-right: 0vw;
 }
@@ -216,6 +216,7 @@ textarea {
   height: 300px;
   resize: vertical horizontal;
   float: left;
+  margin-right: 0vw;
 }
 
 /* Contact Page Button */
