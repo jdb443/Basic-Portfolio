@@ -159,6 +159,10 @@ p {
   min-width: 50%vw;
 }
 
+.portPhotos img{
+  margin: 0em auto;
+}
+
 /* Protrait Page Text Bars */
 .textAbsolute, .textAbsolute:visited, .textAbsolute:active {
   position: absolute;
