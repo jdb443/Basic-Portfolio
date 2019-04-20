@@ -4,13 +4,13 @@
 header {
   background-color: #ffffff;
   overflow: hidden;
-  color: white;
   border-bottom: 2px solid #cccccc;
   text-decoration: none;
   width:100%;
 
 }
 
+/* Body */
 body {
   padding: 0;
   margin: 0;
@@ -144,7 +144,6 @@ span a:hover {
 #nav_title1 {
   float: left;
   text-decoration: none;
-
 }
 
 p {
@@ -152,13 +151,15 @@ p {
   color: #777777;
 }
 
+/* Protrait Page Photos */
 .portPhotos {
   float: left;
   margin: 37px 74px 37px 0px;
   position: relative;
+  min-width: 50%vw;
 }
 
-
+/* Protrait Page Text Bars */
 .textAbsolute, .textAbsolute:visited, .textAbsolute:active {
   position: absolute;
   color: #ffffff;
@@ -179,7 +180,7 @@ p {
   font-weight: bold;
 }
 
-
+/* Contact Page Form Region */
 form {
   float: left;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -191,7 +192,7 @@ form {
   margin-right: 30px;
 }
 
-
+/* Contact Page text Input boxes */
 input {
   margin-bottom: 20px;
   width: 65vw;
@@ -208,6 +209,7 @@ input[type], textarea[type] {
 
 }
 
+/* Contact Page text area */
 textarea {
   width: 60vw;
   margin-right: 0vw;
@@ -216,6 +218,7 @@ textarea {
   float: left;
 }
 
+/* Contact Page Button */
 button {
   float: left;
   position: absolute;
@@ -229,8 +232,7 @@ button {
   font-size: 18px;
 }
 
-
-
+/* Contact Page Button Hover */
 button:hover {
   color: #4aaaa5;
   background: #dddddd;
@@ -328,7 +330,7 @@ sup {
   padding-top: 60px;
 }
 
-
+/* Footer Content Format */
 footer {
   background-color: #666666;
   text-align: center;
